@@ -4,6 +4,9 @@
 
 This repository contains the "Prout" script, created by RylexOff. It's a playful prank script designed to add some humor to your interactions. When executed on a Windows 10 or 11 system, it performs actions to increase the volume to the maximum and open a specific webpage. Use it responsibly and with the consent of the target for light-hearted fun.
 
+
+This script can be used as-is to add a touch of humor. The chosen video is a humorous version of the fart scene from Shrek, as we appreciate quirky humor. That's why it's called the "prout-script".
+
 The script allows for customization by enabling you to modify the browser and the specific video link within the code. You can choose your preferred browser and set a different URL for the video. Please ensure that you have the necessary permissions and consent before running this script on someone's computer.
 
 ## Getting Started
