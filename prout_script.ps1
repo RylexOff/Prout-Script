@@ -13,7 +13,17 @@ $downloadPath = "$env:USERPROFILE\Downloads"
 $videoPath = $(Get-ChildItem -Path $env:USERPROFILE\Downloads | Sort-Object -Property LastWriteTime -Descending | Select-Object -First 1).FullName
 #Open default media player
 $shell = New-Object -ComObject Shell.Application
-$shell.ShellExecute($videoPath)
+#Va relancer la video 30 fois
+for ($i = 1; $i -le 30; $i++) {
+    $shell.ShellExecute($videoPath)
+    Start-Sleep -Milliseconds 4000
+    $shellWindows = $shell.Windows()
+    foreach ($window in $shellWindows) {
+        if ($window.Document.Title -like "*shrek_Farts*") {
+            $window.Quit()
+        }
+    }
+}
 #clear terminal and quit
 clear
 exit
