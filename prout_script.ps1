@@ -5,3 +5,4 @@ $shell = New-Object -ComObject Shell.Application
 $shell.ShellExecute($videoPath)
 clear
 exit
+
