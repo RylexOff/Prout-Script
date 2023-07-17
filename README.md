@@ -7,8 +7,6 @@ This repository contains the "Prout" script, created by RylexOff. It's a playful
 
 This script can be used as-is to add a touch of humor. The chosen video is a humorous version of the fart scene from Shrek, as we appreciate quirky humor. That's why it's called the "prout-script".
 
-The script allows for customization by enabling you to modify the browser and the specific video link within the code. You can choose your preferred browser and set a different URL for the video. Please ensure that you have the necessary permissions and consent before running this script on someone's computer.
-
 ## Getting Started
 
 ### Dependencies
@@ -17,7 +15,7 @@ The script allows for customization by enabling you to modify the browser and th
 
 ### Execution
 
-1. Plug in your Rubber Ducky.
+1. Plug in your bash bunny.
 2. Modify the code to specify your preferred browser and video link.
 3. The script will automatically execute, raising the volume to the maximum and opening the specified webpage or video.
 
