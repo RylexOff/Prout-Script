@@ -20,9 +20,9 @@
 
 
 It's a prank script designed to make your friend laugh who doesn't lock their computer. it must be run on a Windows 10 or 11 system, it does:
--Increase the volume to the maximum
--Download the video
--Launch the video in a loop (30 times max).
+- Increase the volume to the maximum
+- Download the video
+- Launch the video in a loop (30 times max).
 
 
 This script must be used as is, nothing to modify. The chosen video is a fart of Shrek, because we appreciate humor. That's why it's called the "prout-script".
