@@ -1,17 +1,23 @@
 # Prout Script
-
+![alt text](https://github.com/RylexOff/Prout-Script/blob/main/Prout-Script.gif?raw=true)
 ## Description
 
-This repository contains the "Prout" script, created by RylexOff. It's a playful prank script designed to add some humor to your interactions. When executed on a Windows 10 or 11 system, it performs actions to increase the volume to the maximum and download video en read it.
+
+It's a prank script designed to make your friend laugh who doesn't lock their computer. it must be run on a Windows 10 or 11 system, it does:
+-Increase the volume to the maximum
+-Download the video
+-Launch the video in a loop (30 times max).
 
 
-This script can be used as-is to add a touch of humor. The chosen video is a humorous version of the fart scene from Shrek, as we appreciate quirky humor. That's why it's called the "prout-script".
+This script must be used as is, nothing to modify. The chosen video is a fart of Shrek, because we appreciate humor. That's why it's called the "prout-script".
+ps: "Prout" = "Fart" in French
 
 ## Getting Started
 
 ### Dependencies
 
 - Windows 10, 11
+- Internet connection
 
 ### Execution
 
