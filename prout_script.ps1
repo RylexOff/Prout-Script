@@ -13,7 +13,7 @@ $downloadPath = "$env:USERPROFILE\Downloads"
 $videoPath = $(Get-ChildItem -Path $env:USERPROFILE\Downloads | Sort-Object -Property LastWriteTime -Descending | Select-Object -First 1).FullName
 #Open default media player
 $shell = New-Object -ComObject Shell.Application
-#Va relancer la video 30 fois
+#Will restart the video 30 times
 for ($i = 1; $i -le 30; $i++) {
     $shell.ShellExecute($videoPath)
     Start-Sleep -Milliseconds 4000
